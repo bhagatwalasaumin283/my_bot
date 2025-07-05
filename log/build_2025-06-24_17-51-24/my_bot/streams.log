@@ -1,0 +1,54 @@
+[0.008s] Invoking command in '/home/saumin/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/saumin/dev_ws/src -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/saumin/dev_ws/install/my_bot
+[0.092s] -- The C compiler identification is GNU 11.4.0
+[0.163s] -- The CXX compiler identification is GNU 11.4.0
+[0.172s] -- Detecting C compiler ABI info
+[0.235s] -- Detecting C compiler ABI info - done
+[0.241s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.241s] -- Detecting C compile features
+[0.242s] -- Detecting C compile features - done
+[0.244s] -- Detecting CXX compiler ABI info
+[0.312s] -- Detecting CXX compiler ABI info - done
+[0.317s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.317s] -- Detecting CXX compile features
+[0.317s] -- Detecting CXX compile features - done
+[0.322s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.423s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.469s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.491s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.545s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.546s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.547s] -- Added test 'lint_cmake' to check CMake code style
+[0.547s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.548s] -- Added test 'xmllint' to check XML markup files
+[0.549s] -- Configuring done
+[0.551s] -- Generating done
+[0.552s] -- Build files have been written to: /home/saumin/dev_ws/build/my_bot
+[0.557s] Invoked command in '/home/saumin/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/saumin/dev_ws/src -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/saumin/dev_ws/install/my_bot
+[0.559s] Invoking command in '/home/saumin/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/saumin/dev_ws/build/my_bot -- -j16 -l16
+[0.591s] Invoked command in '/home/saumin/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/saumin/dev_ws/build/my_bot -- -j16 -l16
+[0.601s] Invoking command in '/home/saumin/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/saumin/dev_ws/build/my_bot
+[0.607s] -- Install configuration: ""
+[0.607s] -- Execute custom install script
+[0.607s] -- Symlinking: /home/saumin/dev_ws/install/my_bot/share/my_bot/config/empty.yaml
+[0.614s] -- Symlinking: /home/saumin/dev_ws/install/my_bot/share/my_bot/config/view1.rviz
+[0.622s] -- Symlinking: /home/saumin/dev_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[0.629s] -- Symlinking: /home/saumin/dev_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[0.636s] -- Symlinking: /home/saumin/dev_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[0.644s] -- Symlinking: /home/saumin/dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[0.652s] -- Symlinking: /home/saumin/dev_ws/install/my_bot/share/my_bot/worlds/empty.world
+[0.659s] -- Symlinking: /home/saumin/dev_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[0.668s] -- Symlinking: /home/saumin/dev_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[0.676s] -- Symlinking: /home/saumin/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[0.685s] -- Symlinking: /home/saumin/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[0.693s] -- Symlinking: /home/saumin/dev_ws/install/my_bot/share/my_bot/environment/path.sh
+[0.701s] -- Symlinking: /home/saumin/dev_ws/install/my_bot/share/my_bot/environment/path.dsv
+[0.708s] -- Symlinking: /home/saumin/dev_ws/install/my_bot/share/my_bot/local_setup.bash
+[0.715s] -- Symlinking: /home/saumin/dev_ws/install/my_bot/share/my_bot/local_setup.sh
+[0.722s] -- Symlinking: /home/saumin/dev_ws/install/my_bot/share/my_bot/local_setup.zsh
+[0.730s] -- Symlinking: /home/saumin/dev_ws/install/my_bot/share/my_bot/local_setup.dsv
+[0.737s] -- Symlinking: /home/saumin/dev_ws/install/my_bot/share/my_bot/package.dsv
+[0.745s] -- Symlinking: /home/saumin/dev_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[0.752s] -- Symlinking: /home/saumin/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[0.759s] -- Symlinking: /home/saumin/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[0.768s] -- Symlinking: /home/saumin/dev_ws/install/my_bot/share/my_bot/package.xml
+[0.778s] Invoked command in '/home/saumin/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/saumin/dev_ws/build/my_bot
